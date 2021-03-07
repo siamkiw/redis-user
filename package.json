@@ -1,0 +1,23 @@
+{
+  "name": "redis-user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "node-fetch": "^2.6.1",
+    "random-words": "^1.1.1",
+    "redis": "^3.0.2",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
